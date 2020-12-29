@@ -1,22 +1,28 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="{{ url_for('static', filename='css/style.css')}}"
-    />
-    <link
-      rel="shortcut icon"
-      href="{{ url_for('static', filename='img/tech_electronics_icon.ico')}}"
-      type="image/x-icon"
-    />
-    <title>Document</title>
-  </head>
-  <body>
-    <h1>Portfolio</h1>
-    <script src="{{ url_for('static', filename='js/style.css')}}"></script>
-  </body>
-</html>
+{% extends 'base.html' %} {% block title %}Home Page {% endblock%}
+<!-- Add your site or app content here -->
+{% block content %}
+<div
+  class="hero-full-container background-image-container white-text-container"
+  style="background-image: url('./static/img/spaceX1.jpg')"
+>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <div class="hero-full-wrapper">
+          <div class="text-content">
+            <h1>
+              Hello,<br />
+              <span id="typed-strings">
+                <span>I'm Kaly Bah</span>
+                <span>Software Developer</span>
+                <span>Working as a Freelance</span>
+              </span>
+              <span id="typed"></span>
+            </h1>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{%endblock%}
