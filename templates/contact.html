@@ -1,4 +1,4 @@
-{% extends 'base2.html' %} {% block title %}contact Page {% endblock%}
+{% extends 'base.html' %} {% block title %}contact Page {% endblock%}
 <!-- Add your site or app content here -->
 {% block content %}
 
@@ -12,7 +12,7 @@
 
         <div class="row">
           <div class="col-md-10 col-md-offset-1">
-            <form action="" class="reveal-content">
+            <form action="/submit_form" method="POST" class="reveal-content">
               <div class="row">
                 <div class="col-md-7">
                   <div class="form-group">
