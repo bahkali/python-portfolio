@@ -266,7 +266,7 @@ html {
 body {
   font-family: "Source Sans Pro", Helvetica, sans-serif;
   font-size: 1rem;
-  font-size: 19px;
+  font-size: 18px;
   font-weight: 300;
   line-height: 1.65;
   color: #000;
@@ -4856,7 +4856,7 @@ body.minimal {
 }
 body,
 p {
-  font-size: 19px;
+  font-size: 1.5rem;
   font-weight: 300;
   letter-spacing: 0.8px;
   line-height: 25px;
